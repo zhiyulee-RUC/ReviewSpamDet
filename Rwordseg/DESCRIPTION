@@ -1,0 +1,19 @@
+Package: Rwordseg
+License: GPL
+Title: Chinese word segmentation
+Type: Package
+LazyLoad: yes
+Author: Jian Li <rweibo@sina.com>
+Maintainer: Jian Li <rweibo@sina.com>
+Description: This package provides an interface to Ansj for 
+	Chinese word segmentation.
+Version: 0.2-1
+Date: 2013-12-15
+Depends: R (>= 2.12.0), rJava
+Suggests: RUnit
+Repository: R-Forge
+Repository/R-Forge/Project: rweibo
+Repository/R-Forge/Revision: 47
+Repository/R-Forge/DateTimeStamp: 2013-12-15 07:11:02
+Date/Publication: 2013-12-15 07:11:02
+Packaged: 2013-12-15 07:35:16 UTC; rforge
