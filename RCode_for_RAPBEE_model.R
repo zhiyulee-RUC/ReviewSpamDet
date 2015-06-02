@@ -88,7 +88,7 @@ GetRev.att.dic<-function(Reviews,GD=GoodsDetail,Gen=Gen.att.dic){
   Rev.att.dic<-Rev.att.dic[which(!Rev.att.dic=="killwords")] 
                                                              #删除词频低于处理结果30%的词语，即去剩余词项的50%组成属性词典
 #------------------------属性词典构建-------------结束------------
-  save(Rev.att.dic,file="dic/Rev.att.dic")
+ 
   return(Rev.att.dic)#保存属性词典，并返回
 }
 
